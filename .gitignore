@@ -1,0 +1,4 @@
+*.sh
+.env
+.idea
+out/
