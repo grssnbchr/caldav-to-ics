@@ -7,7 +7,11 @@ The URL can then be fed to Google Calendar. I haven't found another way to regul
 
 ### Installation
 
-`pip install caldav icalendar`
+Install the following requirements: 
+
+`pip install python-dotenv caldav icalendar`
+
+Then execute with `python main.py`. 
 
 ### Config
 
@@ -20,3 +24,4 @@ Make sure you have a `.env` file in the main directory with the following variab
 * `FTP_USR`: The user for the server
 * `FTP_PWD`: Corresponding password
 * `FTP_PATH`: The actual path to the file you want to store (should end in `calendar.ics`)
+
